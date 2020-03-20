@@ -79,13 +79,19 @@ h3 {
   margin-top: 100%;
 }
 
-
+#bottom {
+  position: absolute;
+  bottom: 0;
+  
+}
 
 #bottom p {
   margin-left: 25%;
   width:50%;
-  font-size: x-small;  
+  font-size: x-small;
+  margin-top: .5%;  
 }
+
 
 .sidebar {
   height: 100%;
