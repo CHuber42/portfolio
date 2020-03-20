@@ -133,18 +133,23 @@ h3 {
   padding-top: 50%;
 }
 
+.quotebar p:hover{
+  color: rgb(163, 152, 124);
+}
+
 .sidebar .quotebar {
   height: 49%;
 }
 
-.main-text *{
+.main-text {
   float: center;
   width: 85%;
   color: white;
-
+  padding-left: 22%;
 }
 
 #hobbies-list {
+  color: white;
   width: 75%;
   padding-left: 20%;
 }
