@@ -1,6 +1,5 @@
 html {
   height: 100%;
- 
 }
 
 body {
@@ -41,7 +40,7 @@ body {
 
 .project-box {
   margin-left: 12%;
-  height: 95%;
+  height: 94%;
   opacity: 80%;
 }
 
@@ -49,6 +48,11 @@ body {
   opacity: 100%;
 }
 
+#bottom p {
+  margin-left: 25%;
+  width:50%;
+  font-size: x-small;  
+}
 
 .sidebar {
   height: 100%;
