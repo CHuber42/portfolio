@@ -1,0 +1,39 @@
+* {
+  border: 1px solid darkcyan;
+}
+
+
+html {
+  height: 100%;
+}
+
+.project-box {
+  margin-left: 12%;
+}
+
+.project-box-holder {
+  background-color: gray;
+  margin-left: 9%;
+  height: 15%;
+}
+
+.sidebar {
+  height: 100%;
+  float: left;
+  width: 10%;
+  background-color: greenyellow;
+  padding: none;
+  margin: none;
+  
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: hotpink;
+  width: 100%;
+  height: 100%;
+}
