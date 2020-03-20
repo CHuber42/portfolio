@@ -148,6 +148,14 @@ h3 {
   padding-left: 22%;
 }
 
+.main-text a {
+  color: white;
+}
+
+.main-text a:hover {
+  color: blue;
+}
+
 #hobbies-list {
   color: white;
   width: 75%;
