@@ -61,7 +61,7 @@ h3 {
   padding-left: 5%;
 }
 
-ul,ol li {
+.project-box-holder ul,ol li {
   padding-top: 3%;
 }
 
@@ -77,6 +77,14 @@ ul,ol li {
 
 .project-box p {
   margin-top: 100%;
+}
+
+
+
+#bottom p {
+  margin-left: 25%;
+  width:50%;
+  font-size: x-small;  
 }
 
 .sidebar {
@@ -95,10 +103,11 @@ ul,ol li {
 
 .sidebar .row {
   height: 5%;
-  width: 110%;
+  width: 100%;
   border: 1px solid rgb(163, 152, 124);
   background-color: black;
   color: rgb(163, 152, 124);
+  margin-left: 0px;  
 }
 
 .sidebar .row p {
@@ -110,8 +119,26 @@ ul,ol li {
   color: white;
 }
 
-#bottom p {
-  margin-left: 25%;
-  width:50%;
-  font-size: x-small;  
+.quotebar p {
+  font-style: italic;
+  text-align: center;
+  width: 85%;
+  margin-left: 7.5%;
+  padding-top: 50%;
+}
+
+.sidebar .quotebar {
+  height: 49%;
+}
+
+.main-text *{
+  float: center;
+  width: 85%;
+  color: white;
+
+}
+
+#hobbies-list {
+  width: 75%;
+  padding-left: 20%;
 }
