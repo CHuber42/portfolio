@@ -34,6 +34,7 @@ body {
 }
 
 
+
 .project-box-holder {
   margin-left: 9%;
   height: 36.5%;
@@ -45,14 +46,36 @@ body {
   opacity: 80%;
 }
 
+.project-box ul {
+  float: left;
+  text-align: left;
+  width: 100%;
+  height: 70%;
+}
+
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+ul li {
+  padding-top: 5%;
+}
+
+.underline-bar {
+  border: 2px solid rgb(163, 152, 124);
+  height: 1px;
+  width: 100%;
+}
+
 .project-box:hover {
   opacity: 100%;
 }
 
-#bottom p {
-  margin-left: 25%;
-  width:50%;
-  font-size: x-small;  
+.project-box p {
+  margin-top: 30%;
 }
 
 .sidebar {
@@ -66,8 +89,7 @@ body {
 .sidebar img {
   width: 100%;
   height: 25%;
-  border: 1px solid rgb(163, 152, 124);
-  
+  border: 1px solid rgb(163, 152, 124);  
 }
 
 .sidebar .row {
@@ -85,4 +107,8 @@ body {
   color: white;
 }
 
-
+#bottom p {
+  margin-left: 25%;
+  width:50%;
+  font-size: x-small;  
+}
