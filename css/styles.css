@@ -16,82 +16,11 @@ body {
   height: 100%;
 }
 
-#topbar {
-  height: 9.5%;
-  margin-top: 2%;
-  font-weight: 700;
-  font-style: italic;
-  font-size: xx-large;
-}
-
-.spacer-bar {
-  height: 4%;
-  border: 2px solid rgb(163, 152, 124);
-  width: 82%;
-  margin-left: 14%;
-  margin-bottom: 1.5%;
-  background-color: black;
-}
-
-
-
-.project-box-holder {
-  margin-left: 9%;
-  height: 36.5%;
-}
-
-.project-box {
-  margin-left: 12%;
-  height: 94%;
-  opacity: 80%;
-}
-
 h3 {
   color: black;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
-.project-box ul,ol {
-  color: black;
-  float: left;
-  text-align: left;
-  width: 100%;
-  height: 70%;
-  padding-left: 5%;
-}
-
-.project-box-holder ul,ol li {
-  padding-top: 3%;
-}
-
-.underline-bar {
-  border: 2px solid rgb(163, 152, 124);
-  height: 1px;
-  width: 100%;
-}
-
-.project-box:hover {
-  opacity: 100%;
-}
-
-.project-box p {
-  margin-top: 100%;
-}
-
-#bottom {
-  position: absolute;
-  bottom: 0;
-  
-}
-
-#bottom p {
-  margin-left: 25%;
-  width:50%;
-  font-size: x-small;
-  margin-top: .5%;  
-}
-
 
 .sidebar {
   height: 100%;
@@ -120,9 +49,12 @@ h3 {
   margin-top: 5%;  
 }
 
-
 .sidebar p:hover {
   color: white;
+}
+
+.sidebar .quotebar {
+  height: 49%;
 }
 
 .quotebar p {
@@ -137,8 +69,46 @@ h3 {
   color: rgb(163, 152, 124);
 }
 
-.sidebar .quotebar {
-  height: 49%;
+#topbar {
+  height: 9.5%;
+  margin-top: 2%;
+  font-weight: 700;
+  font-style: italic;
+  font-size: xx-large;
+}
+
+.spacer-bar {
+  height: 4%;
+  border: 2px solid rgb(163, 152, 124);
+  width: 82%;
+  margin-left: 14%;
+  margin-bottom: 1.5%;
+  background-color: black;
+}
+
+.project-box-holder {
+  margin-left: 9%;
+  height: 36.5%;
+}
+
+.project-box {
+  margin-left: 12%;
+  height: 94%;
+  opacity: 80%;
+}
+
+
+.project-box ul,ol {
+  color: black;
+  float: left;
+  text-align: left;
+  width: 100%;
+  height: 70%;
+  padding-left: 5%;
+}
+
+.project-box-holder ul,ol li {
+  padding-top: 3%;
 }
 
 .main-text {
@@ -164,4 +134,31 @@ h3 {
   color: white;
   width: 75%;
   padding-left: 20%;
+}
+
+.underline-bar {
+  border: 2px solid rgb(163, 152, 124);
+  height: 1px;
+  width: 100%;
+}
+
+.project-box:hover {
+  opacity: 100%;
+}
+
+.project-box p {
+  margin-top: 100%;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 0;
+  
+}
+
+#bottom p {
+  margin-left: 25%;
+  width:50%;
+  font-size: x-small;
+  margin-top: .5%;  
 }
