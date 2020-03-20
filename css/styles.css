@@ -156,6 +156,10 @@ h3 {
   color: blue;
 }
 
+.main-text h3 {
+  color: white;
+}
+
 #hobbies-list {
   color: white;
   width: 75%;
