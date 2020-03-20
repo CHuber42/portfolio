@@ -52,7 +52,7 @@ h3 {
   margin-bottom: 0px;
 }
 
-.project-box ul {
+.project-box ul,ol {
   color: black;
   float: left;
   text-align: left;
@@ -61,7 +61,7 @@ h3 {
   padding-left: 5%;
 }
 
-ul li {
+ul,ol li {
   padding-top: 3%;
 }
 
@@ -97,6 +97,8 @@ ul li {
   height: 5%;
   width: 110%;
   border: 1px solid rgb(163, 152, 124);
+  background-color: black;
+  color: rgb(163, 152, 124);
 }
 
 .sidebar .row p {
