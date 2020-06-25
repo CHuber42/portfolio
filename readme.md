@@ -1,7 +1,7 @@
 ### Project: **Personal Website**
 #### Author: **Christopher Huber**
 
-### Github page: https://chuber42.github.io/week-1-code-review/index.html
+### Github page: https://chuber42.github.io/portfolio/
 #### Github repo: You're standing on it.
 ##### Copyright Christopher Huber 2020
 
